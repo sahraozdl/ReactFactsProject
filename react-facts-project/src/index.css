@@ -33,3 +33,31 @@ body {
   font-weight: 700;
   font-size: 23px;
 }
+.main {
+  background-color: #282d35;
+  color: #ffffff;
+  height: 100%;
+}
+.main-h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  padding: 30px;
+  margin: 0;
+}
+.main-ul {
+  min-width: 390px;
+  min-height: 190px;
+  padding: 15px 75px;
+  margin: 0;
+  text-align: left;
+}
+.main-ul li {
+  line-height: 20px;
+  font-size: 16px;
+  padding: 5px 0;
+}
+.main-ul li::marker {
+  color: #61dafb;
+  font-size: 1.3rem;
+}
