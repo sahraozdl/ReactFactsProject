@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  min-width: 550px;
+  min-height: 91px;
+  padding: 30px 25px;
+  background-color: #21222a;
+}
+
+.nav {
+  max-height: 30px;
+  max-width: 158px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-logo-text {
+  color: #61dafb;
+  line-height: 27px;
+  font-weight: 700;
+  font-size: 23px;
+}
